@@ -1,0 +1,31 @@
+.tituloIni{
+    font-size:30px;
+    color: rgb(30, 62, 204);
+    max-width: 95%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right:20%;
+    margin:0 auto;
+}
+
+.form-label{
+    margin-left: 50px;
+}
+
+.form-control{
+    width: 60%;
+    margin-left:50px;
+}
+
+.imgIniC{
+    margin:auto;
+    width: 30%;
+    height: 30%;
+    display:block;
+    transition: height 2s, width 1s;
+}
+
+.imgIniC:hover{
+    height:35%;
+    width: 35%;
+}

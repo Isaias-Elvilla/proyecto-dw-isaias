@@ -1,0 +1,104 @@
+.bg-light {
+    background-color: white!important; 
+    border:solid rgb(30, 62, 204);
+}
+
+.navbar{
+    padding-top: 2px;
+    padding-bottom: 2px; 
+}
+
+.navbar-brand{
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(30, 62, 204); 
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color:  rgb(30, 62, 204); 
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color:  rgb(30, 62, 204); 
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:  rgb(30, 62, 204); 
+    font-family:'Nanum Gothic', sans-serif;
+    font-size: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.carousel-inner{
+    height: 500px;
+    width: 100%;
+}
+
+.parrafoIni{
+    font-size:25px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(30, 62, 204);
+    max-width: 95%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right:20%;
+    margin:0 auto;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    justify-items: center;
+    justify-content: center;
+    align-self: center;
+
+    .imgIni{
+        margin:auto;
+        width: 50%;
+        height: 50%;
+        display:block;
+        transition: height 2s, width 1s;
+    }
+
+    .imgIni:hover{
+        height:52%;
+        width: 52%;
+    }
+}
+
+.pie{
+    margin-top: 15px;
+    background-color: white;
+    border:solid rgb(30, 62, 204);
+    height: 100px;
+
+    .subtituloIni{
+        font-size:25px;
+        font-family: 'Nanum Gothic', sans-serif;
+        color: rgb(30, 62, 204);
+        max-width: 95%;
+        text-align: left;
+        margin:0 auto; 
+        margin-left: 10px;
+    }
+
+    .btn-outline-info {
+        color: black;
+        border-color: rgb(30, 62, 204);
+    }
+    .btn-outline-info:hover {
+        color: white;
+        background-color: rgb(138, 159, 252);
+        border-color: rgb(30, 62, 204);
+    }
+}

@@ -1,0 +1,110 @@
+.bg-light {
+  background-color: white !important;
+  border: solid #1e3ecc; }
+
+.navbar {
+  padding-top: 2px;
+  padding-bottom: 2px; }
+
+.navbar-brand {
+  font-family: 'Nanum Gothic', sans-serif; }
+
+.navbar-light .navbar-brand {
+  color: #1e3ecc; }
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #1e3ecc;
+  font-family: 'Nanum Gothic', sans-serif; }
+
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: #1e3ecc;
+  font-family: 'Nanum Gothic', sans-serif; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1e3ecc;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px; }
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 500px; }
+
+.carousel-inner {
+  height: 500px;
+  width: 100%; }
+
+.parrafoIni {
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+  color: #1e3ecc;
+  max-width: 95%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 0 auto; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  justify-items: center;
+  justify-content: center;
+  align-self: center; }
+  .grid .imgIni {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    display: block;
+    transition: height 2s, width 1s; }
+  .grid .imgIni:hover {
+    height: 52%;
+    width: 52%; }
+
+.pie {
+  margin-top: 15px;
+  background-color: white;
+  border: solid #1e3ecc;
+  height: 100px; }
+  .pie .subtituloIni {
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #1e3ecc;
+    max-width: 95%;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 10px; }
+  .pie .btn-outline-info {
+    color: black;
+    border-color: #1e3ecc; }
+  .pie .btn-outline-info:hover {
+    color: white;
+    background-color: #8a9ffc;
+    border-color: #1e3ecc; }
+
+.tituloIni {
+  font-size: 30px;
+  color: #1e3ecc;
+  max-width: 95%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 0 auto; }
+
+.form-label {
+  margin-left: 50px; }
+
+.form-control {
+  width: 60%;
+  margin-left: 50px; }
+
+.imgIniC {
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  display: block;
+  transition: height 2s, width 1s; }
+
+.imgIniC:hover {
+  height: 35%;
+  width: 35%; }
